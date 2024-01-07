@@ -1,0 +1,123 @@
+/* App.css */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #575807;
+}
+
+.container {
+  max-width: 400px;
+  width: 100%;
+  border-radius:80px;
+  box-shadow: 25px 0 10px rgba(247, 245, 245, 0.1);
+  padding: 100px;
+  border: 5px solid black; 
+
+}
+.container h1{
+  text-align: center;
+  color: yellow;
+}
+.container hr{
+font-size: 50px;
+background-color: yellow;
+
+  height: 10px; 
+  border: none; 
+  margin: 20px 0;
+  margin-top: 20px;
+
+
+}
+
+
+
+.task {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  border-bottom: 1px solid #0f0b0b;
+
+}
+
+.task:last-child {
+  border-bottom: none;
+
+}
+
+input[type="text"] {
+  padding: 20px;
+  border-radius: 20px;
+  margin-bottom: 10px;
+  width: calc(100% - 16px);
+  border: 5px solid black;
+  box-shadow: 8px 0 10px black;
+
+}
+input[type="text"] {
+  
+
+  
+  text-decoration: none;
+  outline: none; 
+  padding: 20px;
+  border-radius: 20px;
+  margin-bottom: 10px;
+  width: calc(100% - 16px);
+  border: 5px solid black;
+  box-shadow: 8px 0 10px black;
+}
+
+
+
+input[type="text"]:focus {
+
+  border-color: #101215; 
+}
+
+
+button {
+  padding: 8px 16px;
+  border: 2px solid black;
+  border-radius: 4px;
+  background-color: #575807;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 20px;
+  margin-left: 20px;
+  padding-top: 10px;
+  
+
+}
+
+button:hover {
+  background-color: #789615;
+}
+.container2 .add-button{
+  color: rgb(14, 9, 2);
+  background-color: rgb(216, 248, 13);
+}
+
+.input-button-container {
+  display: flex;
+  align-items: center;
+}
+
+.task-input {
+  flex: 1; 
+}
+.add-button {
+  color: rgb(10, 10, 8);
+  background-color: yellow;
+  border-radius: 30px;
+  width: 100px;
+}
+
