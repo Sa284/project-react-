@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/project-react-.git/static/css/main.afeefbca.css",
-    "main.js": "/project-react-.git/static/js/main.19b649d5.js",
-    "index.html": "/project-react-.git/index.html",
-    "main.afeefbca.css.map": "/project-react-.git/static/css/main.afeefbca.css.map",
-    "main.19b649d5.js.map": "/project-react-.git/static/js/main.19b649d5.js.map"
+    "main.css": "/project-react-/static/css/main.afeefbca.css",
+    "main.js": "/project-react-/static/js/main.19b649d5.js",
+    "index.html": "/project-react-/index.html",
+    "main.afeefbca.css.map": "/project-react-/static/css/main.afeefbca.css.map",
+    "main.19b649d5.js.map": "/project-react-/static/js/main.19b649d5.js.map"
   },
   "entrypoints": [
     "static/css/main.afeefbca.css",
